@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <style>
+      .layout
+      {
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: 20vh 30vh 30vh 20vh;
+        grid-template-areas:
+        "h h"
+        "p p"
+        "s s"
+        "f f"
+        ;
+
+      }
+      nav{
+        grid-area: h;
+        background-color: rgb(14, 1, 1);
+        display: flex;
+        color: white;
+        margin-top: 30px;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .gi
+      {
+        display: flex;
+        gap:20px;
+      }
+      .bmenu
+      {
+        grid-area: p;
+        text-align: center;
+        font-size: 40;
+      }
+      .pa1
+      {
+        grid-area: s;
+        text-align: center;
+        font-size: 22;
+        background-color: black;
+        color: white;
+  
+      }
+      .gp
+      {
+        grid-area: f;
+        background-color: aqua;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+    <nav>
+    <h2>Name</h2>
+    <div class="gi">
+    <p>home</p>
+    <p>contact</p>
+    <p>about</p>
+   </div>
+    </nav>
+      <div class="bmenu">
+        <p>hi this is giri</p>
+      </div>
+      <div class="pa1">
+        <p>
+          i am a computer engneeer
+          studying in skcet
+          my grede is --
+        </p>
+      </div>
+      <div class="gp">
+
+      </div>
+  </div>
+  </body>
+</html>
